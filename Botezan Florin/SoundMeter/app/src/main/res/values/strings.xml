@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">SoundMeter</string>
-    <string name="decibel_formatted_text">%1$s decibels</string>
-    <string name="todo">TODO</string>
-</resources>
