@@ -27,7 +27,7 @@ Lista donatorilor
  +-+-+-+-+-+
 [www.vicky.ro](https://www.vicky.ro)
 
-
+Vezi prezentarea video:
 
 [![Aplicatia video](https://img.youtube.com/vi/twcy2MZX0m8/0.jpg)](https://www.youtube.com/watch?v=twcy2MZX0m8 "Aplicatia video")
 
