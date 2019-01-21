@@ -2,6 +2,7 @@
 <body>
 <link rel="stylesheet" href="css1.css">
 <script src="js1.js"></script>
+<script src="geo.js"></script>
 
 <center>
 <div class="clock"></div>
@@ -19,24 +20,8 @@
 	<br> 
 	<button onclick="getLocation()">Obtine locatia</button>
 
-	<p id="demo"></p>
+	<p id="geo"></p>
 
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitudine: " + position.coords.latitude + 
-  "<br>Longitudine: " + position.coords.longitude;
-}
-</script>
 
 </center>
 </body>
