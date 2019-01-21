@@ -6,4 +6,6 @@ Continut: Javascript, HTML
 
 Aplicatia ajuta la convertirea diferitelor masuratori, fie de distanta, greutate sau temperatura.
 
-Aplicatia include si o folosirea giroscopului pentru a simula o nivela/boloboc.
+Pentru a putea converti trebuie doar sa scrie valoarea dorita in una dintre casute si dupa apasarea butonului "Calculeaza" sau apasarea in afara acesteia se v-a calcula automat.
+
+Aplicatia include folosirea giroscopului pentru a simula o nivela/boloboc si fire de executie.
