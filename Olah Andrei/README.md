@@ -1,3 +1,4 @@
+
 # HeartRateMonitor
 ##### Aceasta aplicatie este folosita pentru detectarea pulsului unei persoana.
 ##### In prima pagina a aplicaties exista doua obtiuni, prima este pornirea aplicatiei si cealalta obtiune este vederea ultimei inregistrari a pulsului.
@@ -5,12 +6,7 @@
 ##### Cele 2 butoane sunt pentru salvarea pulsului, care pate fi revazut pe prima pagina si oprirea aplicatiei.
 ##### Aceasta aplicatie a fost creiata in android studio.
 
-<img src= "Screenshot1.jpg" width=20% height=20%>
-<img src= "Screenshot2.jpg" width=20% height=20%>
-
-
-
-
-
+<img src= "Screenshot1.jpg" width=20% height=20%>  <img
+src= "Screenshot2.jpg" width=20% height=20%>
 
 
