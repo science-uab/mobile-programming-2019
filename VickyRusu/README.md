@@ -27,9 +27,8 @@ Lista donatorilor
  +-+-+-+-+-+
 [www.vicky.ro](https://www.vicky.ro)
 
-[![aplicatia video](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/youtube_app.png)]
-(https://www.youtube.com/embed/twcy2MZX0m8 "Donatori sange")
 
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
         
       
