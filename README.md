@@ -1,6 +1,6 @@
 # Proiect mobile Boancas Bogdan Alexandru
 
-Proiectul a fost realizat cu Android studio si am incarcat doar fisierele java si xml necesare proiectului.
+Proiectul a fost realizat cu Android studio folosind biblioteca zxing:1.9.
 
 Aplicatia reprezinta un QR scanner care ne permite accesarea unui URL web pe baza unui cod QR pe care il putem scana folosindu-ne de camera telefonului
 
