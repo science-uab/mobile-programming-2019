@@ -23,3 +23,5 @@ culorilor interfetei aplicatiei si asezarea in pagina a elementelor
 -La conceperea aplicatiei se putea folosi node.js pentru a asigura suportul server web si functiile acestuia de relationare cu baza de date, dar am optat pentru memorarea in ram/string pentru o sulare mai usoara si facila si eliminarea dependentei de baza de date externa.
 
 programul mai poate fi imbunatatit.
+zona screenshots:
+![screenshot app mobil 1](https://www.scsrl.ro/oltean_mihai/1.png)
