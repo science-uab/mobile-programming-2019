@@ -12,16 +12,16 @@ In Xamarin Forms, pentru fiecare pagina pe care utilizatorul o vede in aplicatia
 
 ![imag1](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/01_sign_up_page.png)
 ![imag2](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/02_main_page.png) <br>
- <dl>
- <dt>Paginile de sign_up, respectiv detalii donator</dt>
- </dl>
+ 
+ Paginile de sign_up, respectiv detalii donator
+ 
 ![imag3](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/03_donator_sign_up.png)
 ![imag4](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/04_donator_detalii.png) <br>
-<dl>
-<dt>Lista donatorilor</dt>
- </dl>
+
+Lista donatorilor
+ 
 ![imag5](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/05_lista_donatori.png)
 
- +-+-+-+-+-+ <br>
+ +-+-+-+-+-+
  |v|i|c|k|y| 
  +-+-+-+-+-+
