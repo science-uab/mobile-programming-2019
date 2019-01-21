@@ -1,0 +1,43 @@
+<html>
+<body>
+<link rel="stylesheet" href="css1.css">
+<script src="js1.js"></script>
+
+<center>
+<div class="clock"></div>
+<h1>Busola digitala</h1>
+
+	<div class="compass">
+		<div class="arrow"></div>
+		<div class="disc" id="compassDiscImg"></div>
+	</div>
+	<div class="orientation-data">
+		<div>Alpha: <span id="direction"></span></div>
+		<div>Beta: <span id="tiltLR"></span></div>
+		<div>Gamma: <span id="tiltFB"></span></div>
+	</div>	
+	<br> 
+	<button onclick="getLocation()">Obtine locatia</button>
+
+	<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitudine: " + position.coords.latitude + 
+  "<br>Longitudine: " + position.coords.longitude;
+}
+</script>
+
+</center>
+</body>
+</html>
