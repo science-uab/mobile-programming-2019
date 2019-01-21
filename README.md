@@ -8,17 +8,17 @@ Programul principal are 3 module si anume: un modul de login, un modul de animat
 
 Atasat se regasesc si screenshoturi ale aplicatiei care arata toate cele 3 module in actiune. 
 
-##Partea de login
+**Partea de login**
 
 ![img1](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_1.jpg)<br>
 
-##Animatie threads
+**Animatie threads**
 
 ![img2](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_2.jpg)<br>
 
-##QR scanner
+**QR scanner**
 
-![img3](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_3a.jpg)<br>
+![img3](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_3a.jpg)<br><br>
 
 ![img4](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_3b.jpg)<br>
 
