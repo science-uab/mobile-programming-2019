@@ -8,9 +8,15 @@ Este o pagina web, responsive si pe telefon
 
 Cum se foloseste:
 Navigarea in pagina este usoara atat pe PC cat si pe smartphone
-
+<img src="/style/ss2.png" alt="O captura de ecran cu mapa">
 Mai multe detalii:
 -avem 4 pagini interactive cu notiuni despre firma STP de transport din Alba
 -API de la google map- pentru pozitie curenta, momentan doar pe PC functioneaza
 -in API regasim si 10 pinguri de la bus station, cu coordonate exacte
-- vezi ss2.png
+<img src="/style/ss1.png" alt="O captura de ecran cu proiectul">
+
+Capturi de ecran de pe telefon:
+<img src="/style/1.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
+<img src="/style/2.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
+<img src="/style/3.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
+<img src="/style/4.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
