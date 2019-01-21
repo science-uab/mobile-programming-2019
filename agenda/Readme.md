@@ -16,3 +16,12 @@ culorilor interfetei aplicatiei si asezarea in pagina a elementelor
 dar am optat pentru memorarea in ram/string pentru o sulare mai usoara si facila si eliminarea dependentei de baza de date externa.
 
 programul mai poate fi imbunatatit.
+zona screenshots:
+![screenshot app mobil 1](https://www.scsrl.ro/oltean_mihai/1.png)
+![screenshot app mobil 2](https://www.scsrl.ro/oltean_mihai/2.png)
+![screenshot app mobil 3](https://www.scsrl.ro/oltean_mihai/3.png)
+![screenshot app mobil 4](https://www.scsrl.ro/oltean_mihai/4.png)
+![screenshot app mobil 5](https://www.scsrl.ro/oltean_mihai/5.png)
+![screenshot app mobil 6](https://www.scsrl.ro/oltean_mihai/6.png)
+![screenshot app mobil 7](https://www.scsrl.ro/oltean_mihai/7.png)
+![screenshot app mobil 8](https://www.scsrl.ro/oltean_mihai/8.png)
