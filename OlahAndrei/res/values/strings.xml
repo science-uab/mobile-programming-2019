@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_ceator">OlahAndrei</string>
-    <string name="app_name">HeartRateMonitor</string>
-    <string name="default_text">---</string>
-    <string name="button_start">Start</string>
-    <string name="button_stop">Stop</string>
-</resources>
