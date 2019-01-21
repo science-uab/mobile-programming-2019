@@ -28,7 +28,8 @@ Lista donatorilor
 [www.vicky.ro](https://www.vicky.ro)
 
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
+[![Aplicatia video](https://img.youtube.com/vi/twcy2MZX0m8/0.jpg)](https://www.youtube.com/watch?v=twcy2MZX0m8 "Aplicatia video")
 
         
       
