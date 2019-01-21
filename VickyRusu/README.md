@@ -7,3 +7,5 @@ In Xamarin Forms, pentru fiecare pagina pe care utilizatorul o vede in aplicatia
 ![imag1](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/01_sign_up_page.png)
 ![imag2](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/02_main_page.png)
 ![imag3](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/03_donator_sign_up.png)
+![imag3](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/04_donator_detalii.png)
+![imag3](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/05_lista_donatori.png)
