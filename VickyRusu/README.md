@@ -1,18 +1,6 @@
 # SDonatori - aplicatie pentru donatorii de sange
 
 
-            /$$           /$$                                                                    
-           |__/          | $$                                                                    
- /$$    /$$ /$$  /$$$$$$$| $$   /$$ /$$   /$$        /$$$$$$  /$$   /$$  /$$$$$$$ /$$   /$$      
-|  $$  /$$/| $$ /$$_____/| $$  /$$/| $$  | $$       /$$__  $$| $$  | $$ /$$_____/| $$  | $$      
- \  $$/$$/ | $$| $$      | $$$$$$/ | $$  | $$      | $$  \__/| $$  | $$|  $$$$$$ | $$  | $$      
-  \  $$$/  | $$| $$      | $$_  $$ | $$  | $$      | $$      | $$  | $$ \____  $$| $$  | $$      
-   \  $/   | $$|  $$$$$$$| $$ \  $$|  $$$$$$$      | $$      |  $$$$$$/ /$$$$$$$/|  $$$$$$/      
-    \_/    |__/ \_______/|__/  \__/ \____  $$      |__/       \______/ |_______/  \______/       
-                                    /$$  | $$                                                    
-                                   |  $$$$$$/                                                    
-                                    \______/                                                     
-
 
 Am folosit Microsoft Visual Studio - C#, respectiv framework-ul Xamarin Forms, iar pentru baza de date, un REST API - pe platforma Mirosoft Azure.
 Dupa logarea in aplicatie, poti cauta un donator in functie de grupa de sange si judetul in care se afla. Acesta poate fin contactat prin email sau nr de telefon.
