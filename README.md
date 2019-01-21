@@ -1,6 +1,3 @@
-# mobile-programming-2019
-Projects implemented by students for the "Applications for Mobile Devices" class
-
 # HeartRateMonitor
 ##### Aceasta aplicatie este folosita pentru detectarea pulsului unei persoana.
 ##### In prima pagina a aplicaties exista doua obtiuni, prima este pornirea aplicatiei si cealalta obtiune este vederea ultimei inregistrari a pulsului.
