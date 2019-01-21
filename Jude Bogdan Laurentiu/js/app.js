@@ -1,10 +1,10 @@
 (function () {
   "use strict";
 
-  //set to true for debugging output
+
   var debug = false;
 
-  // our current position
+//pozitia currenta
   var positionCurrent = {
     lat: null,
     lng: null,
@@ -12,40 +12,38 @@
   };
 
 
-  // the outer part of the compass that rotates
+  // celalta parte a roti(variabile)
   var rose = document.getElementById("roata");
 
 
-  // elements that ouput our position
+  // variabile pentru pozitia lor
   var positionLat = document.getElementById("position-lat");
   var positionLng = document.getElementById("position-lng");
   var positionHng = document.getElementById("position-hng");
 
 
-  // debug outputs
+  // orientarea lo lat
   var debugOrientation = document.getElementById("debug-orientation");
   var debugOrientationDefault = document.getElementById("debug-orientation-default");
 
 
-  // info popup elements, pus buttons that open popups
+  // var popupri
   var popup = document.getElementById("popup");
   var popupContents = document.getElementById("popup-contents");
   var popupInners = document.querySelectorAll(".popup__inner");
   var btnsPopup = document.querySelectorAll(".btn-popup");
 
 
-  // buttons at the bottom of the screen
+  // var butoane de  blok si de night
   var btnLockOrientation = document.getElementById("btn-lock-orientation");
   var btnNightmode = document.getElementById("btn-nightmode");
   var btnMap = document.getElementById("btn-map");
   var btnInfo = document.getElementById("btn-info");
 
 
-  // if we have shown the heading unavailable warning yet
-  var warningHeadingShown = false;
 
 
-  // switches keeping track of our current app state
+  // tine track al apilcatiei
   var isOrientationLockable = false;
   var isOrientationLocked = false;
   var isNightMode = false;
@@ -55,7 +53,7 @@
   var defaultOrientation;
 
 
-  // browser agnostic orientation
+  // browser (orientarea)
   function getBrowserOrientation() {
     var orientation;
     if (screen.orientation && screen.orientation.type) {
@@ -66,27 +64,6 @@
                     screen.msOrientation;
     }
 
-    /*
-      'portait-primary':      for (screen width < screen height, e.g. phone, phablet, small tablet)
-                                device is in 'normal' orientation
-                              for (screen width > screen height, e.g. large tablet, laptop)
-                                device has been turned 90deg clockwise from normal
-
-      'portait-secondary':    for (screen width < screen height)
-                                device has been turned 180deg from normal
-                              for (screen width > screen height)
-                                device has been turned 90deg anti-clockwise (or 270deg clockwise) from normal
-
-      'landscape-primary':    for (screen width < screen height)
-                                device has been turned 90deg clockwise from normal
-                              for (screen width > screen height)
-                                device is in 'normal' orientation
-
-      'landscape-secondary':  for (screen width < screen height)
-                                device has been turned 90deg anti-clockwise (or 270deg clockwise) from normal
-                              for (screen width > screen height)
-                                device has been turned 180deg from normal
-    */
 
     return orientation;
   }
@@ -95,7 +72,7 @@
 
 
 
-  // browser agnostic document.fullscreenElement
+  // browser full screen document.fullscreenElement
   function getBrowserFullscreenElement() {
     if (typeof document.fullscreenElement !== "undefined") {
       return document.fullscreenElement;
@@ -109,7 +86,7 @@
   }
 
 
-  // browser agnostic document.documentElement.requestFullscreen
+  // pentru fullscreen la lock
   function browserRequestFullscreen() {
     if (document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen();
@@ -123,7 +100,7 @@
   }
 
 
-  // browser agnostic document.documentElement.exitFullscreen
+  // iesire la Fullscreen
   function browserExitFullscreen() {
     if (document.exitFullscreen) {
       document.exitFullscreen();
@@ -137,7 +114,7 @@
   }
 
 
-  // called on device orientation change
+  // orientarea dispozitivului
   function onHeadingChange(event) {
     var heading = event.alpha;
 
