@@ -1,0 +1,20 @@
+#index1 {
+	color: white;
+	font-family: Arial;
+}
+
+#index2 {
+	color: orange;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 30px;
+	font-family: Arial;
+	border-style: solid;
+	border-color: orange;
+	border-radius: 25px;
+}
+
+#index2:hover {
+	background-color: orange;
+	color: red;
+}
