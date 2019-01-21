@@ -1,7 +1,13 @@
-# HTML5 Audio Player #
 
-**HTML5 Audio Player** uses the HTML5 audio API to create playlists and play, pause and skip through tracks.
 
+![alt text](http://i.epvpimg.com/JMDuaab.png)
+
+# HTML5 Audio Player with voice recognition #
+
+**HTML5 Audio Player with voice recognition** uses the HTML5 audio API to create playlists and play, pause and skip through tracks.
+
+  Simple music player with voice recognition.
+  You can start, pause, stop, change to previous or next song by buttons, or by "speak" button and say keywords :"start, stop, pause, next, previous".
 
 ## Version ##
 **1.0**
