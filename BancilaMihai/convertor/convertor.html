@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<!-- BancilaMihai -->
+
+<html >
+
+	<body background="imagine.jpg" onload="startOra()">
+	
+		<!--<p>UI version: 2019.01.19.0</p>-->
+		
+		<!--<p id="id_bussiness_version"></p>-->
+		
+		<h2>
+			<b>Data curenta este:</b>
+		</h2>
+		
+		<b><p id="id_data_curenta"></p></b>
+		
+		<b><p id="id_ora_curenta"></p></b>
+		
+<!--cod greutate-->
+
+		<h2>
+			<b>Conversie greutate:</b>
+		</h2>
+		
+<TABLE cellSpacing=0 cellPadding=0 width=250 border=0>
+
+	<FORM name=kggr method="post">
+	
+		<TBODY>
+		
+			<TR>
+			
+			  <TD>
+			  
+				<INPUT onblur=kgconvertor() value=1 name=kg><b> kg</b>
+				
+			  </TD>
+			  
+			</TR>
+			
+			<TR>
+			
+			  <TD>
+				
+				<INPUT onblur=grconvertor() value=1000 name=gr><b> gr</b>
+			  
+			  </TD>
+			  
+			</TR>
+			
+			<TR>
+			
+			  <TD width="50%">
+			  
+				  <p align="center"><input type="button" value="Calculeaza"></p>
+				  
+			  </TD>
+			  
+			</TR>
+			
+		</TBODY>
+		
+	</FORM>
+	
+</TABLE>
+
+
+<!--cod distanta-->
+
+<h2>
+	<b> Conversie distanta:</b>
+</h2>
+
+<TABLE cellSpacing=0 cellPadding=0 width=250 border=0>
+
+	<FORM name=cminch method="post">
+	
+		<TBODY>
+		
+			<TR>
+			
+			  <TD>
+			  
+				<INPUT onblur=cmconvertor() value=1 name=cm><b> cm</b>
+				
+			  </TD>
+				
+			</TR>
+			
+			<TR>
+			
+			  <TD>
+				
+				<INPUT onblur=inchconvertor() value=0.39370079 name=inch><b> inch</b>
+				
+			  </TD>
+			
+			</TR>
+			
+			<TR>
+			
+			  <TD width="50%">
+			  
+				  <p align="center"><input type="button" value="Calculeaza"></p>
+				  
+			  </TD>
+			  
+			</TR>
+			
+		</TBODY>
+		
+	</FORM>
+	
+</TABLE>
+
+<!--cod temperatura-->
+
+<h2>
+	<b> Conversie temperatura:</b>
+</h2>
+
+<TABLE cellSpacing=0 cellPadding=0 width=250 border=0>
+
+	<FORM name=cf method="post">
+	
+		<TBODY>
+		
+			<TR>
+			
+			  <TD>
+			  
+				<INPUT onblur=cconvertor() value=1 name=c><b> celsius</b>
+				
+			  </TD>
+				
+			</TR>
+			
+			<TR>
+			
+			  <TD>
+				
+				<INPUT onblur=fconvertor() value=33.8 name=f><b> fahrenheit</b>
+				
+			  </TD>
+				
+			</TR>
+			
+			<TR>
+			
+			  <TD width="50%">
+			  
+				  <p align="center"><input type="button" value="Calculeaza"></p>
+				  
+			  </TD>
+			  
+			</TR>
+			
+		</TBODY>
+		
+	</FORM>
+	
+</TABLE>
+
+<h2>
+	<b> Nivela/boloboc:</b>
+</h2>
+
+		<!--<p id="id_nivela"></p>-->
+
+		<h4>
+			<b>unghi pe orizontala in grade:</b>
+		</h4>
+		
+		<b><p id="id_beta"></p></b>
+
+		<script src="data_curenta.js"></script>
+		
+		<script src="convertor.js"></script>
+		
+		<script src="nivela.js"></script>
+		
+	</body>
+	
+</html>
