@@ -16,7 +16,7 @@ Mai multe detalii:
 <img src="/style/ss1.png" alt="O captura de ecran cu proiectul">
 
 Capturi de ecran de pe telefon:
-<img src="/style/1.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
-<img src="/style/2.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
-<img src="/style/3.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
-<img src="/style/4.jpg" alt="O captura de ecran cu proiectul ruland de pe telefon(Huawei p20)">
+<img src="/style/1.jpg" alt="poza 1">
+<img src="/style/2.jpg" >
+<img src="/style/3.jpg" >
+<img src="/style/4.jpg" >
