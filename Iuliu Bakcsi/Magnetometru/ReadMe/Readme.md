@@ -8,6 +8,6 @@ In mediu normal valorile raman la cota valorii campului electromagnetic din jur 
 
 
 
-![Screenshot](mag.png)
+![Screenshot](mag.jpg)
 
-![Screenshot](mag1.png)
+![Screenshot](mag1.jpg)
