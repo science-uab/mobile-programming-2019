@@ -13,9 +13,6 @@ In Xamarin Forms, pentru fiecare pagina pe care utilizatorul o vede in aplicatia
 ![imag4](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/04_donator_detalii.png)
 ![imag5](https://github.com/vickyrusu/SDonatori/blob/master/screenshots/05_lista_donatori.png)
 
-
- __ __ __   ___ __ __ _  _
- || || ||  //   || // \\//
- \\ // || ((    ||&lt;&lt;   )/ 
-  \V/  ||  \\__ || \\ //  
-                          
+ +-+-+-+-+-+
+ |v|i|c|k|y|
+ +-+-+-+-+-+
