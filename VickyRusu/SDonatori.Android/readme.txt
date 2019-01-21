@@ -1,1 +1,0 @@
-aplicatia pt android - donatori de sange - vickyrusu@
