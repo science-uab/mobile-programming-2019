@@ -21,3 +21,6 @@ Capturi de ecran de pe telefon:
 <img src="/style/2.jpg" >
 <img src="/style/3.jpg" >
 <img src="/style/4.jpg" >
+
+
+
