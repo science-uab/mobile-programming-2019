@@ -27,4 +27,7 @@ Lista donatorilor
  +-+-+-+-+-+
 [www.vicky.ro](https://www.vicky.ro)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/twcy2MZX0m8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![image](SDonatori/screenshots/youtube_app.png)
+[donatori_sange](https://www.youtube.com/embed/twcy2MZX0m8 "Donatori sange")
+        
+      
