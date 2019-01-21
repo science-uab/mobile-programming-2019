@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+ <title>Proiect paint</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta charset="utf-8" /> 
+<link rel="stylesheet" href="styl.css" type="text/css" />
+</head>
+<body>
+<div id="page">
+    <div class="header">
+		<button onClick="newCanvas()" class="navbtn">Pagină noua!</button>
+        <div class="title" >Desen:</div>
+    </div>
+   <div id="paint">
+    <canvas id="myCanvas" width="250" height="250" style="border:1px solid"></canvas>
+</div>
+ <div class="footer">
+	
+		<div class="case">
+			<div class="menu" title="Culoare"><b>Culoare:</b>
+				  <select onchange="change(this.value)" class="navbtn">
+                <option value="red">Rosu</option>
+                <option value="blue">Albastru</option>
+                <option value="green">Verde</option>
+                <option value="pink">Roz</option>
+				<option value="black">Negru</option>
+				<option value="purple">Mov</option>
+				<option value="white">Alb</option>
+            </select>
+			</div>	
+			
+			<div class="menu" title="Size"><b>Dimensiune:</b>
+				 <select onchange="changeThickness(this.value)" class="navbtn">
+            <option value="1">1</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+			</div>
+			<div class="menu" title="Download"><b>Download:</b>
+				<a href="#" class="navbtn" id="btn-download" download="my-file-name.png">Aici!</a>
+			</div>	
+			<div class="menu" title="Upload"><b>Încarcă:</b>
+				<input type="file" id="imageLoader" style="color:transparent;" onchange="this.style.color = 'black';" name="imageLoader" class="navbtn"/>
+			</div>
+				
+			<div style="clear:both"></div>
+		</div>
+    </div>
+</div> 
+<script type="text/javascript" src="Paint.js"></script>
+
+</body>
+</html>
