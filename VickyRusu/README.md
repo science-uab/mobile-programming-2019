@@ -26,3 +26,7 @@ Lista donatorilor
  |v|i|c|k|y| 
  +-+-+-+-+-+
 [www.vicky.ro](https://www.vicky.ro)
+
+<a href="https://youtu.be/twcy2MZX0m8
+" target="_blank"><img src="https://youtu.be/twcy2MZX0m8" 
+alt="aplicatie donatori" width="240" height="180" border="10" /></a>
