@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Demo VR</title>
+		<style>
+		</style>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body>
+		<div class="w3-container w3-mobile">
+			<div alt="Aperçu de votre projet" id="Esc3DContainer" style="width:1000px; height:500px;"></div>
+		</div>
+
+		<script src="three.js-master/build/three.js"></script>
+		<script src="three.js-master/examples/js/loaders/MTLLoader.js"></script>
+		<script src="three.js-master/examples/js/loaders/OBJLoader.js"></script>
+		<script src="three.js-master/examples/js/WebGL.js"></script>
+		<script src="three.js-master/examples/js/vr/WebVR.js"></script> 
+
+		<script src='https://cdn.jsdelivr.net/npm/webvr-polyfill@latest/build/webvr-polyfill.js'></script>
+
+		<script>
+			var container;
+			var camera, controls, renderer;
+			var scene;
+
+			var polyfill = new WebVRPolyfill();
+
+			if (WEBGL.isWebGLAvailable()) {
+			    init();
+			    document.body.appendChild( WEBVR.createButton( renderer ) );
+			} else {
+			    var warning = WEBGL.getWebGLErrorMessage();
+			    document.getElementById('Esc3DContainer').appendChild(warning);
+			}
+
+
+			function loadScene(texturesURL, sceneURL, sceneName) {
+
+			    var onProgress = function (xhr) {
+			        if (xhr.lengthComputable) {
+			            var percentComplete = xhr.loaded / xhr.total * 100;
+			            console.log(Math.round(percentComplete, 2) + '% downloaded');
+			        }
+			    };
+
+			    var onError = function (xhr) {
+			        console.log('An error happened');
+			    };
+
+			    var mtlLoader = new THREE.MTLLoader();
+			    mtlLoader.setResourcePath(texturesURL);
+			    mtlLoader.setPath(sceneURL);
+			    mtlLoader.load(sceneName + '.mtl', function (materials) {
+			        materials.preload();
+
+			        var objLoader = new THREE.OBJLoader();
+			        objLoader.setMaterials(materials);
+			        objLoader.setPath(sceneURL);
+
+			        objLoader.load(sceneName + '.obj', function (object) {
+			            object.traverse(function (child) {
+
+							if( child.material )
+								child.material.side = THREE.DoubleSide;
+						});
+						object.rotation.x=(3*Math.PI) / 2;
+						object.position.set(-2,0,-2);
+			            scene.add(object);						
+
+			        }, onProgress, onError);
+			    });
+			}
+
+			function init() {
+			    container = document.getElementById('Esc3DContainer');
+
+                scene = new THREE.Scene();
+				loadScene('Textures/', '', 's3d');
+				
+				var light = new THREE.DirectionalLight(0xffffff, 0.75);
+			    light.position.set(0, 0, 1);
+			    scene.add(light);
+
+			    light = new THREE.DirectionalLight(0xffffff, 0.75);
+			    light.position.set(1, 1, 1);
+			    scene.add(light);
+
+			    light = new THREE.DirectionalLight(0xffffff, 0.75);
+			    light.position.set(0, 0, 0);
+			    scene.add(light);
+
+			    light = new THREE.AmbientLight(0x404040);
+			    scene.add(light);
+				
+				camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.0001, 3000);
+
+				renderer = new THREE.WebGLRenderer();
+				renderer.setPixelRatio(window.devicePixelRatio);
+				var width = window.innerWidth;
+				var height = window.innerHeight;
+				container.style.width = width + 'px';
+			    container.style.height = height + 'px';
+				renderer.setSize(width, height);
+				renderer.vr.enabled = true;
+				
+                container.appendChild(renderer.domElement);
+
+				
+				var geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+				var material = new THREE.MeshNormalMaterial();
+				var cube = new THREE.Mesh(geometry, material);
+				cube.position.z = -2;
+				cube.position.x = -2;
+				cube.position.y = 1;
+
+				scene.add(cube);
+
+				render();
+
+				function render() {
+				console.log(camera.position.x);
+				requestAnimationFrame(render);
+                renderer.render(scene, camera);
+            }
+
+                //window.addEventListener('resize', onWindowResize, false);
+            }
+			
+			function onWindowResize() {
+			    var width = window.innerWidth;
+				container.style.width = width + 'px';
+				var height = window.innerHeight;
+				container.style.height = height + 'px';
+                renderer.setSize(width, width);
+            }
+
+        </script>
+
+	</body>
+</html>
