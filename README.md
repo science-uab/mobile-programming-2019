@@ -1,12 +1,26 @@
+# Proiect mobile Boancas Bogdan Alexandru
 
-# HeartRateMonitor
-##### Aceasta aplicatie este folosita pentru detectarea pulsului unei persoana.
-##### In prima pagina a aplicaties exista doua obtiuni, prima este pornirea aplicatiei si cealalta obtiune este vederea ultimei inregistrari a pulsului.
-##### In cea de a doua pagina va aparea un spatiu unde va aparea valoare pulsului, o fereastra care arata camera de filmat, o imagine cu o inima care se va schimba la detectarea pulsului si 2 butoane.
-##### Cele 2 butoane sunt pentru salvarea pulsului, care pate fi revazut pe prima pagina si oprirea aplicatiei.
-##### Aceasta aplicatie a fost creiata in android studio.
+Proiectul a fost realizat cu Android studio folosind biblioteca zxing:1.9.
 
-<img src= "Screenshot1.jpg" width=20% height=20%>  <img
-src= "Screenshot2.jpg" width=20% height=20%>
+Aplicatia reprezinta un QR scanner care ne permite accesarea unui URL web pe baza unui cod QR pe care il putem scana folosindu-ne de camera telefonului
+
+Programul principal are 3 module si anume: un modul de login, un modul de animatie folosind threads si modulul principal de QR scan. 
+
+Atasat se regasesc si screenshoturi ale aplicatiei care arata toate cele 3 module in actiune. 
+
+**Partea de login**
+
+![img1](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_1.jpg)<br>
+
+**Animatie threads**
+
+![img2](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_2.jpg)<br>
+
+**QR scanner**
+
+![img3](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_3a.jpg)<br><br>
+
+![img4](https://github.com/bogdan-boancas/mobile-programming-2019/blob/master/Boancas%20Bogdan%20Alexandru/Android%20studio%20mobile%20app/screenshot/modul_3b.jpg)<br>
 
 
+Original Upload: https://github.com/bogdan-boancas/AplicatieMobila

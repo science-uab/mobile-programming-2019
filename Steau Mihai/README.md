@@ -23,3 +23,4 @@ Capturi de ecran de pe telefon:
 <img src="/style/4.jpg" >
 
 
+
