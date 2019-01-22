@@ -11,3 +11,8 @@ STUDENT -  MOBILE is a React Native app, created using Expo, Firebase, Redux & R
  - expo init <PROJECT NAME>
  -copy the files in the expo project folder 
   -install dependencies : - redux, react-redux, redux-saga , react-navigation, firebase
+
+
+
+![Alt text](https://github.com/andreeaohno/mobile-programming-2019/blob/master/Andreea%20Onofriesei/IMG_3537.jpeg)
+![Alt text](https://github.com/andreeaohno/mobile-programming-2019/blob/master/Andreea%20Onofriesei/IMG_3541.jpg)
