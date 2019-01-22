@@ -13,3 +13,5 @@ Aplicatia include folosirea giroscopului pentru a simula o nivela/boloboc si fir
 Pentru a va putea face o idee despre cum arata aplicatia exista un printscreen cu numele BancilaMihai.jpg sau puteti accesa:
 https://bancilamihai.github.io/HTML5/convertor/convertor.html
 https://science-uab.github.io/mobile-programming-2019/BancilaMihai/convertor/convertor.html
+ 
+ ![alt text](https://raw.githubusercontent.com/BancilaMihai/BancilaMihai.github.io/master/HTML5/convertor/BancilaMihai.jpg)
